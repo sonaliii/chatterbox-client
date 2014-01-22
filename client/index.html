@@ -12,16 +12,18 @@
 
     <!-- internal javascript -->
     <script src="scripts/config.js"></script>
-    <script src="scripts/app.js"></script>
+    <script src="scripts/app-backbone.js"></script>
   </head>
   <body>
 
     <div id="main">
       <h1>Chatter<i>Box</i></h1>
-      <form>
-        <input type="text" class="textBox" placeholder="Type your message here"><br>
-        <input type="submit" class="submit" value="Submit">
-      </form>
+      <div class="submitForm">
+        <form>
+          <input type="text" class="textBox" placeholder="Type your message here"><br>
+          <input type="submit" class="submit" value="Submit">
+        </form>
+      </div>
       <form action="">
         <label for="rooms">Room</label>
         <select name="rooms" class="rooms">
